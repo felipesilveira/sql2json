@@ -47,3 +47,8 @@ The script will generate the following json file:
 }
 </pre>
 
+Usage:
+========
+<pre>
+perl sql2json.pl <sql_file>
+</pre>
