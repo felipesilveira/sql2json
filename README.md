@@ -9,6 +9,7 @@ Example:
 
 Given the following SQL create clause:
 
+<pre>
 CREATE TABLE COMPANY
 (
 ID INT PRIMARY KEY     NOT NULL,
@@ -16,9 +17,11 @@ NAME           TEXT    NOT NULL,
 AGE            INT     NOT NULL,
 ADDRESS        CHAR(50)
 );
+</pre>
 
 The script will generate the following json file:
 
+<pre>
 {
     "fields": [
     {
@@ -42,4 +45,5 @@ The script will generate the following json file:
     },
     ]
 }
+</pre>
 
